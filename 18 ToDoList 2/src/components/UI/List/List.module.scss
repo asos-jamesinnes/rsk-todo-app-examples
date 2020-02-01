@@ -1,0 +1,24 @@
+.List{
+    margin-bottom: 50px;
+}
+
+.ListItem{
+    padding: 10px 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #4a4a4a;
+}
+
+.Completed{
+    text-decoration: line-through;
+    color: green;
+}
+
+.Buttons > button {
+    margin: 5px;
+}
+
+.Task{
+    width: 100%;
+    padding: 0 5px;
+}

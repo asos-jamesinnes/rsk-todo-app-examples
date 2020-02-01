@@ -1,0 +1,65 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": ["airbnb"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "globals": {
+    "Babel": true,
+
+    "React": true
+  },
+  "plugins": ["react", "react-hooks"],
+  "rules": {
+    "linebreak-style": [0, "error", "unix", "windows"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "indent": 0,
+    "no-tabs": "off",
+    "no-console": 1,
+    "no-underscore-dangle": 0,
+    "arrow-body-style": [2, "as-needed"],
+    "no-alert": "error",
+
+    "no-param-reassign": 0,
+    "no-restricted-syntax": 0,
+    "guard-for-in": 0,
+    "consistent-return": 0,
+    "prefer-rest-params": 0,
+    "no-return-await": 0,
+    "no-use-before-define": 0,
+    "no-trailing-spaces": 0,
+
+    "jsx-a11y/label-has-for": [
+      0,
+      {
+        "components": ["Label"],
+        "required": {
+          "every": ["nesting", "id"]
+        },
+        "allowChildren": false
+      }
+    ],
+
+    "lines-between-class-members": 0,
+
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-closing-bracket-location": [1, "after-props"],
+    "react/prefer-stateless-function": 0,
+
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

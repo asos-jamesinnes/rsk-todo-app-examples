@@ -1,0 +1,23 @@
+//*This is just ordinary CSS - no frameworks were harmed
+in the development of this app */
+.Global {
+  background-color: black;
+  color: red;
+}
+
+.List {
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+}
+
+.DoneButton {
+  padding-left: 50px
+
+}
+.ListItem {
+  border: 4px solid lightgrey;
+  border-radius: 8px;
+  background-color: lightgrey;
+  color: red;
+}

@@ -1,0 +1,65 @@
+:root {
+  --yellow: #ffc600;
+  --black: #272727;
+}
+
+body {
+  padding: 30px;
+  background: linear-gradient(110deg, #f93d66, #6d47d9);
+}
+
+.App {
+  height: auto;
+  padding: 30px;
+  background: linear-gradient(110deg, #f93d66, #6d47d9);
+}
+
+@font-face {
+  font-family: Bondi;
+  src: url(bondi.ttf);
+}
+@font-face {
+  font-family: Chunk;
+  src: url(chunkfive.otf);
+}
+@font-face {
+  font-family: God;
+  src: url(godsownjunkyard-regular.otf);
+}
+
+input {
+  margin-right: 10px;
+}
+
+.todo-item {
+  background-color: rgb(255, 192, 224);
+  padding: 10px;
+  margin: 5px;
+}
+
+.addTodo {
+  padding-bottom: 30px;
+}
+
+.todo-list {
+  padding-bottom: 30px;
+}
+
+.completed-todo-list {
+  padding-bottom: 30px;
+}
+
+button {
+  font-size: 20px;
+}
+
+input {
+  font-size: 20px;
+}
+
+.heading {
+  font-family: Bondi;
+  border-bottom: 10px solid var(--yellow);
+  color: var(--black);
+  font-size: 50px;
+}

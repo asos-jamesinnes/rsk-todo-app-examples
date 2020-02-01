@@ -1,0 +1,68 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: (28 / 13);
+    background-color: #fefefe;
+    color: #383f47;
+    min-width: 22.5rem;
+    overflow-x: hidden;
+}
+
+main {
+    display: block;
+}
+  
+img {
+    object-fit: contain;
+}
+
+.grid{
+    display: grid;
+}
+
+.no-list-style{
+    list-style: none;
+}
+
+.display-inline-block{
+    display: inline-block;
+}
+
+.display-block{
+    display: block;
+}
+
+.no-text-decoration{
+    text-decoration: none;
+}
+
+.default-cursor{
+    cursor: default;
+}
+
+.hidden{
+    display: none;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-justify{
+    text-align: justify;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "redux-boiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "redux-starter-kit": "^0.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathaniel-Dominguez/redux-boiler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathaniel-Dominguez/redux-boiler/issues"
+  },
+  "homepage": "https://github.com/Nathaniel-Dominguez/redux-boiler#readme"
+}

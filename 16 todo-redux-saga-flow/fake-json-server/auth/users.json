@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john",
+      "email": "john@email.com",
+      "password": "john",
+      "roles": [
+        "ROLE_SUPER_ADMIN"
+      ]
+    },
+    {
+      "id": 2,
+      "username": "leon",
+      "email": "leon@email.com",
+      "password": "leon",
+      "roles": [
+        "ROLE_ADMIN"
+      ]
+    },
+    {
+      "id": 3,
+      "username": "peppa",
+      "email": "peppa@email.com",
+      "password": "peppa",
+      "roles": [
+        "ROLE_MANAGER",
+        "ROLE_MANAGE_TAGS"
+      ]
+    },
+    {
+      "id": 4,
+      "username": "george",
+      "email": "george@email.com",
+      "password": "george",
+      "roles": [
+        "ROLE_EMPLOYEE",
+        "ROLE_MANAGE_REPORT"
+      ]
+    },
+    {
+      "id": 5,
+      "username": "polly",
+      "email": "polly@email.com",
+      "password": "polly",
+      "roles": [
+        "ROLE_VISITOR"
+      ]
+    }
+  ]
+}
